@@ -114,7 +114,7 @@ import joblib
 joblib.dump(final_svm_model, 'final_svm_model.pkl')
 
 # Save the encoder
-#joblib.dump(label_encoder, 'label_encoder.pkl')
+joblib.dump(encoder, 'encoder.pkl')
 
 # Save the data dictionary
 joblib.dump(data_dict, 'data_dict.pkl')

@@ -78,6 +78,6 @@ elif selected_page == "🔍 Prediction":
     s3 = st.text_input('Symptom 3', value='')
     
     if st.button("Get your Diagnosis"):
-        symptoms = [s1, s2, s3]
+        symptoms = f"{s1},{s2},{s3}"
         prediction = predictDisease(symptoms)
         st.success(f"Predicted Disease: {prediction}")
