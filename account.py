@@ -12,7 +12,7 @@ from firebase_admin import auth
 
 
 cred = credentials.Certificate('disease-prediction-da0a1-9a8553fdf296.json')
-# firebase_admin.initialize_app(cred)
+firebase_admin.initialize_app(cred)
 
     # # --- user authentication --- 
     # names=["Peter parker" , "Rebecca Miller "]
