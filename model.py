@@ -12,7 +12,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 # %matplotlib inline
-data_path = "Training_diseaseprediction.xlsx"
+data_path = "New_Training.xlsx"
 data = pd.read_excel(data_path).dropna(axis = 1)
 
 disease_cnts = data["prognosis"].value_counts()
@@ -63,7 +63,7 @@ print(svm_model.classes_)
 final_svm_model = SVC()
 final_svm_model.fit(x,y)
 
-test_data = pd.read_excel("Testing.xlsx").dropna(axis=1)
+test_data = pd.read_excel("New_Testing.xlsx").dropna(axis=1)
 test_X = test_data.iloc[:,:-1]
 test_Y = encoder.transform(test_data.iloc[:,-1])
 
@@ -94,19 +94,23 @@ data_dict = {
 }
 
 def predictDisease(symptoms):
-    symptoms = symptoms.split(",")
+    input_symptoms = symptoms.split(",")
     input_data = [0] * len(data_dict["symptom_index"])
-    for symptom in symptoms:
-        index = data_dict["symptom_index"][symptom]
-        input_data[index] = 1
+    for symptom in input_symptoms:
+        #symptom = symptom.strip().lower()  # Convert input symptoms to lowercase and remove leading/trailing spaces
+        if symptom in data_dict["symptom_index"]:
+            index = data_dict["symptom_index"][symptom]
+            input_data[index] = 1
+        else:
+            print(f"Warning: '{symptom}' is not a valid symptom.")
 
-
-    input_data = np.array(input_data).reshape(1,-1)
-    svm_prediction = data_dict["predictions_classes"][final_svm_model.predict(input_data)[0]]
+    input_data = np.array(input_data).reshape(1, -1)
+    svm_prediction_index = final_svm_model.predict(input_data)[0]
+    svm_prediction = data_dict["predictions_classes"][svm_prediction_index]
 
     return svm_prediction
 
-print(predictDisease("Painful Walking,Swelling Joints,Knee Pain"))
+# print(predictDisease("Painful Walking,Swelling Joints,Knee Pain"))
 
 import joblib
 

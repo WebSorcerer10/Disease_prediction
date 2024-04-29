@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "disease-prediction-da0a1",
+  "private_key_id": "9a8553fdf296f767f77a4ce90daf71c7a0534a2c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDbh1jOYZpiuTjr\nkdnTnG/UD1nc4QymWUpS/MDmh0Cr9UuAkovI9G6btOiN/wSHX/8oKBH9UNjVj9bo\n29BFytPIkR7JYUZlAYcX+3DOIIPz2+9D8sHEy3jeF6LfE5rZ+Pb4iO4PzyvS0eaB\nD0sPbRcdoPNuCjaPVJ0PeDxao1xqHrL2EapWJry2XgCs04CjbwMD6EPksscf5I2Q\n6kMNP8za0GEvYnB78HO1oLLImp3uthQnw1o0NPXCaL17zYaTyTm2yMuMcrkcARw0\nIP42sic7W7yxnHjLZIUwqcIvjfVo7IMc6OzjaMhw0b0scQzd0TItDk4oe2XpR0Kd\nCbqF8BqhAgMBAAECggEABJ8qGbg405zCK8V3kEqyGQUUt39+cG8fTzV2izPsQuKI\nayXKrxmkTX9myPyGOCJngQ0s6cgetIpRdDgSf7GoOUgC3asAXCaG1VSsGI7bMFJg\nTG4rMa0193kIawli4HVrH6rkVi1epxLXtz5e7m11x+AoV9f7s5NMtjNqE99uFebT\nDNrx2AsdLUv0/9UpMj8kRH3uHKY1nIGrj2vJ0loBFfheK/uwwtX/WfLD/ibfn49T\nbfQ5auTKRSR+9/AfOybKTBp0aR2IpsMdwbnTuyU/SiHYXmb/ko1vzT/S3q+JN0xN\n5mfo3hlqOYB6kx+1Ca0auYUCKYGH1xcInahigiNu0QKBgQD91tFqTYVEEa868cUb\nnmnw+6h6W7lIhsmlYAg4sTw7KI7IS69fZcXPDTAwei66+nJVmGShCjsaEJE3gLg7\n9VayGQyWJMiKbbBEOX9qqFkGQpUQdt+vTLYIv7sBMXdyEhE4G9JtMDQh5IiEPI2W\nQiF9vlB4xyc8SlYIQzHeybpT+QKBgQDdZcHn/y0MxJIk5+GI5HzJvUEFN9VnpMnQ\nMV/6SL//Ww+Fb2/yysn88GhbLCrlbMhodqofg6V/3U1GWj+z3NTgO04uJ+U6RMlB\nlMDw14Bt2r1lQrGoyKoPZsBA97RJkvfUW7apoW8g7XjAx8JoNDiPQUmDFxOfdpxO\nB3aC5zhV6QKBgQCkJqAkO19b5ofH+YM62hWulj+caOaH5UpPXKvUZaEKrK6xDmip\nq3ng7KlmIA1KMx1vBu7ESYZw05flKaN6eqyG3bYK/lyFUGu1ou0n/xga+UHGdOkw\nRs5NGBgJrICOzuo9u5g3rf14kX5K7ZGuQrO/yivl/vv7fCLokvOUHCYXmQKBgA/C\nY4gZEOLcxy5bVyGAaiWOFCfD7qve/gKU0SkmrowFtlggM47Lwo7/qd37id4k3Ssa\nb0eo/knYvdxpJimuaXTAo/MDIf0A0naZmRZLsLehH2Qq2CyUhA5umPbG6w1lqcBy\n+tCeTiPA45yNW5hBR1ljI1FyfhIWxk+DlnsA7HCpAoGBALklKIPOGzaDemRQi8/f\nENOXAU3do2CbOf4LqGpzR+a7vlKA218MXQEpLCbguxaaX/Hv74JxcoQsdp6/oTe6\nF7FlpF2zLtgkzn+cyY3mbRhPzX9x54Q7ysDpQOpBNRcW2QnBtLDmWkyo4PdNgfDM\nS1e0igvIU20EM4T78X8g7GPZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-jlh95@disease-prediction-da0a1.iam.gserviceaccount.com",
+  "client_id": "101787469837530332634",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-jlh95%40disease-prediction-da0a1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
